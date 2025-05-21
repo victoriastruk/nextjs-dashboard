@@ -1,0 +1,9 @@
+{
+  "build": {
+    "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+    },
+    "builder": "@vercel/next"
+  },
+  "installCommand": "pnpm approve-builds && pnpm install"
+}
